@@ -1,0 +1,76 @@
+body{
+	background: url(../img/08.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	background-attachment: fixed
+}
+.box{
+	position: relative;
+    border-top: 0;
+    top:100px !important;
+    margin-bottom: 30px;
+    padding:20px 5px!important;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0;
+    padding: 0px;
+    -webkit-transition: .5s;
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0,0,0,.1);
+}
+.box-header {
+    color: #455a64;
+    display: block;
+    padding: 1.5rem 1.5rem;
+    position: relative;
+    border-bottom: 1px solid rgba(97, 106, 120, 0.07);
+ }
+.box-header .box-title, .box-header > .fa, .box-header > .glyphicon, .box-header > .ion, .box-body .box-title {
+    display: inline-block;
+    margin: 0;
+    font-weight: 500;
+}
+.box-title {
+    z-index: auto;
+}
+h4 {
+    line-height: 22px;
+    font-size: 18px;
+}
+.box-body {
+    padding: 1.5rem 1.5rem;
+    flex: 1 1 auto;
+}
+.box-body > :last-child {
+    margin-bottom: 0;
+}
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+.mb-5 {
+    margin-bottom: 5px !important;
+}
+.table {
+    color: #757575;
+}
+.mb-5, .my-5 {
+    margin-bottom: 3rem !important;
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+.table {
+    color: #757575;
+}
+table {
+    border-collapse: collapse;
+}
+.box-header form
+{
+    margin-top: 20px;
+}
